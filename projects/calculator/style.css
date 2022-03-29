@@ -1,0 +1,260 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --projectBackground: #9d9d9d;
+    --borderColor: #c1c1c1;
+    --mainText: black;
+    --secondaryText: #151416;
+    --themeDotBorder: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+    --buttonColor: black;
+    --color1: #2b6ec7;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    margin-bottom: 0px !important; 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+}
+
+p,
+li,
+span,
+label,
+input,
+textarea {
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    margin: 3% !important;
+}
+
+p {
+    margin-bottom: 3% !important;
+}
+
+#def-func {
+    margin-left: 10% !important;
+}
+
+#use-func {
+    margin-right: 10% !important;
+}
+
+#del-func {
+    margin-left: 10% !important;
+}
+
+#del-func2 {
+    margin-right: 10% !important;
+}
+
+.project-header {
+    color: var(--mainText);
+}
+
+#container {
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+
+.main-container{
+    justify-content: center;
+}
+
+.img-container {
+    width: 40% !important;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.image {
+    width: 80%;
+    height: auto;
+}
+
+hr {
+    color: var(--borderColor);
+    border-radius: 5px;
+    height: 2px !important;
+    width: 90%;
+    margin: 0 auto !important;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .img-container {
+        width: 100% !important;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+    #def-func {
+        margin-left: auto !important;
+    }
+    
+    #use-func {
+        margin-right: auto !important;
+    }
+    
+    #del-func {
+        margin-left: auto !important;
+    }
+    
+    #del-func2 {
+        margin-right: auto !important;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 120%;
+    }
+    h1 {
+        font-size: 72px;
+    }
+    h2 {
+        font-size: 46px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 100%
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .main-container{
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 130%;
+    }
+    h1 {
+        font-size: 112px;
+    }
+    h2 {
+        font-size: 72px;
+    }
+    h3 {
+        font-size: 56px;
+    }
+    h4 {
+        font-size: 36px;
+    }
+    h5 {
+        font-size: 30px;
+    }
+    h6 {
+        font-size: 24px;
+    }
+    .button {
+        font-size: 150%
+    }
+
+
+}
+
+@media screen and (min-width: 3000px) {
+    html {
+        font-size: 150%;
+    }
+    h1 {
+        font-size: 112px;
+    }
+    h2 {
+        font-size: 72px;
+    }
+    h3 {
+        font-size: 56px;
+    }
+    h4 {
+        font-size: 48px;
+    }
+    h5 {
+        font-size: 40px;
+    }
+    h6 {
+        font-size: 32px;
+    }
+    .button {
+        font-size: 170%
+    }
+    p {
+        font-size: 110%;
+    }
+
+}
+
+@media screen and (min-width: 3900px) {
+    html {
+        font-size: 200%;
+    }
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 150px;
+    }
+    h3 {
+        font-size: 120px;
+    }
+    h4 {
+        font-size: 90px;
+    }
+    h5 {
+        font-size: 80px;
+    }
+    h6 {
+        font-size: 62px;
+    }
+    .button {
+        font-size: 140%
+    }
+
+}
+
